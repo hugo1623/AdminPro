@@ -6,13 +6,11 @@ import { AuthRoutingModule } from './auth/auth.routing';
 
 import { NotpagefoundComponent } from './notpagefound/notpagefound.component';
 
-
-/** AuthRoutingModule**/
 const routes: Routes = [
 
   // path: '/Dashboard' PagesRouting
   // path: '/Auth' AuthRouting
-
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: '**', component: NotpagefoundComponent },
 ];
 
