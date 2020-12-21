@@ -27,8 +27,6 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     SharedModule,
     RouterModule,
-    
-    
   ],
 })
 export class PagesModule {}
